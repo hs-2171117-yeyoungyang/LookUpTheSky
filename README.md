@@ -1,5 +1,6 @@
 # LookUpTheSky
 현재 위치의 날씨 정보를 알려주는 어플리케이션
+<small> 모바일소프트웨어트랙 2171117 양예영 </small>
 
 ## 목표
 - 현재 사용자의 위치를 가져올 수 있다.
@@ -32,12 +33,12 @@
 
 - 시작 화면
   > 로고와 어플리케이션의 설명
-  > - ![image](https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/a88fffa1-f831-4ba1-b64d-ea4953e0e911)
+  > ![image](https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/a88fffa1-f831-4ba1-b64d-ea4953e0e911)
 
 - 메인 화면
   - 상단
     > 현재 위치의 특정주소(ex.00시 00구) 출력
-    > - <img width="182" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/37bafa14-1727-4e0b-9c48-0cbc3dfb3342">
+    > <img width="182" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/37bafa14-1727-4e0b-9c48-0cbc3dfb3342">
     
 
   - 배경
@@ -81,7 +82,7 @@
 ## 기대효과
 - 사용자에 날씨 정보를 간결하고 시각적으로 보여주어 누구나 쉽게 확인할 수 있다.
 - 사용자는 기온에 따라 무엇을 입을지 고민하지 않아도 된다.
-- 기기의 상태(시간, 위치)에 따라 변화하는 UI로 흥미를 돋울 수 있다.
+- 기기의 상태(시간, 위치)와 날씨정보에 따라 변화하는 UI로 흥미를 돋울 수 있다.
 
 ## 발표 영상
 https://youtu.be/UF26RQxlGQs?si=nG6IUysPxlWPt1UX
