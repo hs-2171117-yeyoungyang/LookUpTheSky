@@ -1,4 +1,4 @@
-# LookUpTheSky
+<img width="455" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/7755b583-3212-45d5-b7a8-0549f11d0cbc"># LookUpTheSky
 현재 위치의 날씨 정보를 알려주는 어플리케이션
 
 ## 목표
@@ -10,7 +10,48 @@
 - 복잡하지 않은 UI와 적절한 이미지를 제공하여 사용자가 정보를 쉽게 알아볼 수 있다.
 
 ## 구현
-<img width="457" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/499cd950-018d-4163-bc93-dcc3f7a28023">
+<img width="455" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/5421ec84-25b9-4b2f-9c08-17b621f3b0ce">
+
+- 기상청의 단기예보 API를 사용한다.
+  > 3시간 간격, 하루 8번의 데이터를 가져올 수 있다.
+  > 강수확률, 하늘상태, 습도, 풍속, 기온 정보를 이용한다.
+  > 격자 x, y값에 따라 날씨 정보를 받아온다.
+- GPS를 이용하여 사용자의 위치를 가져온다.
+  > 위치 권한이 허용된 경우만 사용할 수 있다.
+  > 위도, 경도를 가져온다.
+- GeoCoder를 이용한다.
+  > 위도와 경도를 입력한다.
+  > 주소를 출력한다.
+- loaction.xls 파일
+  > 특정 주소(ex.00구)를 입력한다.
+  > 격자 x, y를 출력한다.
 
 ## 화면 설명
 <img width="602" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/b6d957e4-d34f-477e-9828-b42c43f54c8e">
+
+- 시작 화면
+  > 로고와 어플리케이션의 설명
+  > ![image](https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/a88fffa1-f831-4ba1-b64d-ea4953e0e911)
+
+- 메인 화면
+  - 상단
+    > 현재 위치의 특정주소(ex.00시 00구) 출력
+  - 배경
+    > 시간에 따라 라이트/다크 모드 설정
+    > 배경색: 낮-연한 연두색, 밤-회색
+  - 날씨 정보
+    > 기온과 기온 상태(ex.흐림) 표시
+    > 기온 클릭 시 -> 기온에 따른 텍스트 색상 변경
+    > 하늘상태와 하늘상태 이미지
+    > 비 올 확률, 습도, 풍속
+    > 풍속의 범위에 따라 강, 중, 약으로 나누고 아이콘 이미지 변경
+  - 날씨 이슈 공지
+    > 사용자에게 알릴 날씨에 대한 이슈를 알린다.
+    > 이슈에 따라 이미지 변경
+  - 기온별 옷차림
+    > 기온의 범위(9가지)에 따라 나누고 이미지 변경
+  - 메모
+    > 메모 입력 후 날짜 선택, 저장
+    > 메모 수정
+    > 메모 삭제
+    > 날짜 선택 후 메모 보기
