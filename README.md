@@ -1,4 +1,4 @@
-<img width="455" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/7755b583-3212-45d5-b7a8-0549f11d0cbc"># LookUpTheSky
+# LookUpTheSky
 현재 위치의 날씨 정보를 알려주는 어플리케이션
 
 ## 목표
@@ -43,27 +43,27 @@
     > 배경색: 낮-연한 연두색, 밤-회색
     > 
   - 날씨 정보
-    > 기온과 기온 상태(ex.흐림) 표시
+    > - 기온과 기온 상태(ex.흐림) 표시
     > <img width="172" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/d8aa6193-3d7f-46fd-a120-0922c1e86464">
-    > 기온 클릭 시 -> 기온에 따른 텍스트 색상 변경
+    > - 기온 클릭 시 -> 기온에 따른 텍스트 색상 변경
     > <img width="69" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/1e1a0894-cd26-416e-a5de-3e76121f7a2d">
-    > 하늘상태와 하늘상태 이미지
+    > - 하늘상태와 하늘상태 이미지
     > <img width="83" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/7ab80573-29f0-44e1-86b5-33731eb93394">
-    > 비 올 확률, 습도, 풍속
-    > 풍속의 범위에 따라 강, 중, 약으로 나누고 아이콘 이미지 변경
+    > - 비 올 확률, 습도, 풍속
+    > - 풍속의 범위에 따라 강, 중, 약으로 나누고 아이콘 이미지 변경
     > <img width="113" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/d523ea3e-9170-46cb-a9d4-0e7f1f94f9bd">
   - 날씨 이슈 공지
-    > 사용자에게 알릴 날씨에 대한 이슈를 알린다.
-    > 이슈에 따라 이미지 변경
+    > - 사용자에게 알릴 날씨에 대한 이슈를 알린다.
+    > - 이슈에 따라 이미지 변경
     > <img width="62" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/65ce675c-294d-4695-9777-8aca4eb2238f">
   - 기온별 옷차림
-    > 기온의 범위(9가지)에 따라 나누고 이미지 변경
+    > - 기온의 범위(9가지)에 따라 나누고 이미지 변경
     > <img width="176" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/968bb7f8-299c-452f-9e4c-00a6500c9444">
   - 메모
-    > 메모 입력 후 날짜 선택, 저장
-    > 메모 수정
-    > 메모 삭제
-    > 날짜 선택 후 메모 보기
+    > - 메모 입력 후 날짜 선택, 저장
+    > - 메모 수정
+    > - 메모 삭제
+    > - 날짜 선택 후 메모 보기
     > <img width="176" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/51738334-91d4-458a-a333-0e2411dc161f"> 
     > <img width="173" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/070a3d1e-cc0d-4809-acc9-15c62e85bab7">
   
