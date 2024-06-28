@@ -25,7 +25,7 @@ public class WeatherData {
                 try {
                     // API 엔드포인트와 서비스 키 설정
                     String apiUrl = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst";
-                    String serviceKey = "voko4%2FmSR3enEd2Bmohb0JSkB97DAfopOfxQgNPfB6LdoD%2BGZifUx3cl8CrPI5ccM6cDUltK2gubduigraTV1A%3D%3D";
+                    String serviceKey = "인증키";
 
                     // URL 생성
                     StringBuilder urlBuilder = new StringBuilder(apiUrl);

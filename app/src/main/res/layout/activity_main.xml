@@ -277,5 +277,26 @@
             android:textSize="15dp" />
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp">
+        <Button
+            android:id="@+id/ViewLicense"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:backgroundTint="#BBB5B5"
+            android:text="라이선스 보기"/>
+        <TextView
+            android:id="@+id/TxtLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=" "/>
+    </LinearLayout>
 </LinearLayout>
 </ScrollView>

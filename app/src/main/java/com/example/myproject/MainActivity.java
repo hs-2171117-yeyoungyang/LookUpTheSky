@@ -272,6 +272,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         weatherThread.start();
+
+        Button ViewLicense = (Button) findViewById(R.id.ViewLicense);
+        TextView License = (TextView) findViewById(R.id.TxtLicense);
+        ViewLicense.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                License.setText("본 저작물은 공공데이터포털에서 기상청 단기예보 조회 서비스를 활용하여 제작하였습니다.");
+            }
+        });
     }
 
 
