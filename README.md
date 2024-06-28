@@ -74,8 +74,8 @@
     > - 날짜 선택 후 메모 보기
     > - <img width="176" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/51738334-91d4-458a-a333-0e2411dc161f">
      
-    > - <img width="173" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/070a3d1e-cc0d-4809-acc9-15c62e85bab7">
-    
+    > - <img width="222" alt="image" src="https://github.com/hs-2171117-yeyoungyang/LookUpTheSky/assets/115926596/99555acd-1435-4dac-92eb-e061f6b64db0">
+
   
 
 ## 기대효과
